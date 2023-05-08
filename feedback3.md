@@ -1,5 +1,8 @@
 # Apprenant 3
 
+Salut,
+Après analyse de ton code, tu trouveras ci-dessous quelques pistes d'améliorations.
+
 ## Détail de la carte
 
 Tu arrives bien à récupérer la carte souhaitée (à partir son id) dans la base de données. Par contre au niveau de l'affichage du détail de cette carte, tu essaies de la parcourir avec une boucle. Or tu as récupéré une seule et unique carte, tu n'as pas donc pas besoin de faire une boucle. Garde bien en tête que tu as besoin d'une boucle lorsque tu as **plusieurs** éléments à parcourir. 
